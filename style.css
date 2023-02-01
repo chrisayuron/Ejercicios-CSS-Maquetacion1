@@ -24,7 +24,16 @@ body{
     background-color: var(--White);
     border: 1px solid ;
     margin: auto;
+    padding: 15px;
 }
+
+.container__image{
+    background-image: url('./images/image-qr-code.png');
+    height:288px;
+    width: 288px;
+    background-size: contain;
+}
+
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
